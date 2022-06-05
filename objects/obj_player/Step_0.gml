@@ -15,7 +15,10 @@ vy = ((moveDown - moveUp) * walkSpeed);
 if (vx == 0 && vy == 0) {
 	// change idle sprite based on last direction
 	switch dir {
-	
+		case 0: sprite_index = spr_player_idle_right; break;
+		case 1: sprite_index = spr_player_idle_up; break;
+		case 2: sprite_index = spr_player_idle_left; break;
+		case 3: sprite_index = spr_player_idle_down; break;
 	}
 };
 
