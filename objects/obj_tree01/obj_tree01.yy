@@ -18,17 +18,15 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-  ],
+  "eventList": [],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "Little Town Tutorial",
+    "path": "Little Town Tutorial.yyp",
   },
   "resourceVersion": "1.0",
-  "name": "obj_par_environment",
+  "name": "obj_tree01",
   "tags": [],
   "resourceType": "GMObject",
 }
