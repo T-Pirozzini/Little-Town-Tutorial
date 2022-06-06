@@ -1,11 +1,17 @@
 {
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_tree01",
+    "path": "sprites/spr_tree01/spr_tree01.yy",
+  },
   "solid": false,
   "visible": true,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_par_environment",
+    "path": "objects/obj_par_environment/obj_par_environment.yy",
+  },
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
@@ -22,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Little Town Tutorial",
-    "path": "Little Town Tutorial.yyp",
+    "name": "environment",
+    "path": "folders/Objects/environment.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_tree01",

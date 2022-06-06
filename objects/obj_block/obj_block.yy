@@ -1,10 +1,10 @@
 {
   "spriteId": {
-    "name": "spr_barrel01",
-    "path": "sprites/spr_barrel01/spr_barrel01.yy",
+    "name": "spr_block",
+    "path": "sprites/spr_block/spr_block.yy",
   },
   "solid": false,
-  "visible": true,
+  "visible": false,
   "managed": true,
   "spriteMaskId": null,
   "persistent": false,
@@ -28,11 +28,11 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "environment",
-    "path": "folders/Objects/environment.yy",
+    "name": "Objects",
+    "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_barrel01",
+  "name": "obj_block",
   "tags": [],
   "resourceType": "GMObject",
 }

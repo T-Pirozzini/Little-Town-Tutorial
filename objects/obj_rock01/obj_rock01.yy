@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_tree01",
-    "path": "sprites/spr_tree01/spr_tree01.yy",
+    "name": "spr_rock01",
+    "path": "sprites/spr_rock01/spr_rock01.yy",
   },
   "solid": false,
   "visible": true,
@@ -28,8 +28,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Objects",
-    "path": "folders/Objects.yy",
+    "name": "environment",
+    "path": "folders/Objects/environment.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_rock01",
