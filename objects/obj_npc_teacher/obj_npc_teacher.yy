@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_baker_idle_down",
-    "path": "sprites/spr_baker_idle_down/spr_baker_idle_down.yy",
+    "name": "spr_teacher_idle_down",
+    "path": "sprites/spr_teacher_idle_down/spr_teacher_idle_down.yy",
   },
   "solid": false,
   "visible": true,
@@ -27,15 +27,15 @@
   "eventList": [],
   "properties": [],
   "overriddenProperties": [
-    {"propertyId":{"name":"loopRange01","path":"objects/obj_par_npc/obj_par_npc.yy",},"objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"value":"90","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
-    {"propertyId":{"name":"loopRange02","path":"objects/obj_par_npc/obj_par_npc.yy",},"objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"value":"420","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"loopRange01","path":"objects/obj_par_npc/obj_par_npc.yy",},"objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"value":"40","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
+    {"propertyId":{"name":"loopRange02","path":"objects/obj_par_npc/obj_par_npc.yy",},"objectId":{"name":"obj_par_npc","path":"objects/obj_par_npc/obj_par_npc.yy",},"value":"180","resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMOverriddenProperty",},
   ],
   "parent": {
     "name": "NPCs",
     "path": "folders/Objects/NPCs.yy",
   },
   "resourceVersion": "1.0",
-  "name": "obj_npc_baker",
+  "name": "obj_npc_teacher",
   "tags": [],
   "resourceType": "GMObject",
 }
