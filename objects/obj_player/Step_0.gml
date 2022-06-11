@@ -66,8 +66,14 @@ nearbyNPC = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,
 if nearbyNPC {
 	// play greeting sound
 	if (hasGreeted == false) {
+		if (!audio_is_playing(snd_greeting01)) {
 		audio_play_sound(snd_greeting01,1,false);
 		hasGreeted = true;
+		}
+	}
+	// pop up prompt
+	if (npcPrompt == noone || npcPrompt == undefined) {
+		npcPrompt = scr_showPrompt(nearbyNPC,nearbyNPC.x,nearbyNPC.y-450);
 	}
 	show_debug_message("obj_player has found an NPC!");
 	}
@@ -76,6 +82,8 @@ if !nearbyNPC {
 	if (hasGreeted == true) {
 		hasGreeted = false;
 	}
+	// get rid of prompt
+	scr_dismissPrompt(npcPrompt,0);	
 	show_debug_message("obj_player hasn't found anything!");
 	}
 

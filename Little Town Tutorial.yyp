@@ -10,7 +10,7 @@
     {"id":{"name":"obj_rock01","path":"objects/obj_rock01/obj_rock01.yy",},"order":6,},
     {"id":{"name":"snd_pop01","path":"sounds/snd_pop01/snd_pop01.yy",},"order":14,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
-    {"id":{"name":"scr_promptControl","path":"scripts/scr_promptControl/scr_promptControl.yy",},"order":15,},
+    {"id":{"name":"scr_promptControl","path":"scripts/scr_promptControl/scr_promptControl.yy",},"order":0,},
     {"id":{"name":"spr_tree01","path":"sprites/spr_tree01/spr_tree01.yy",},"order":8,},
     {"id":{"name":"obj_fountain01","path":"objects/obj_fountain01/obj_fountain01.yy",},"order":3,},
     {"id":{"name":"spr_player_walk_up","path":"sprites/spr_player_walk_up/spr_player_walk_up.yy",},"order":7,},

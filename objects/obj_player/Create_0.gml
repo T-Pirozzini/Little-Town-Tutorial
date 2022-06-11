@@ -12,6 +12,7 @@ moveDown = 0;
 nearbyNPC = noone;
 lookRange = 50;
 hasGreeted = false;
+npcPrompt = noone;
 
 // create listener and set orientation
 audio_listener_set_position(0,x,y,0);
