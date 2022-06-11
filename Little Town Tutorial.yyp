@@ -2,7 +2,7 @@
   "resources": [
     {"id":{"name":"snd_seq_good03_BGM","path":"sounds/snd_seq_good03_BGM/snd_seq_good03_BGM.yy",},"order":6,},
     {"id":{"name":"obj_textbox","path":"objects/obj_textbox/obj_textbox.yy",},"order":5,},
-    {"id":{"name":"font_textbox","path":"fonts/font_textbox/font_textbox.yy",},"order":15,},
+    {"id":{"name":"font_textbox","path":"fonts/font_textbox/font_textbox.yy",},"order":0,},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},"order":2,},
     {"id":{"name":"spr_baker_idle_down","path":"sprites/spr_baker_idle_down/spr_baker_idle_down.yy",},"order":0,},
     {"id":{"name":"spr_player_walk_right","path":"sprites/spr_player_walk_right/spr_player_walk_right.yy",},"order":6,},
