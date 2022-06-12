@@ -87,5 +87,19 @@ if !nearbyNPC {
 	show_debug_message("obj_player hasn't found anything!");
 	}
 
+// check for collision with NPCs
+nearbyItem = collision_rectangle(x-lookRange,y-lookRange,x+lookRange,y+lookRange,obj_par_item,false,true);
+if (nearbyItem) { 
+	// pop up prompt
+	if (itemPrompt == noone || itemPrompt == undefined) {
+		show_debug_message("obj_player has found an item!");
+		itemPrompt = scr_showPrompt(nearbyItem,nearbyItem.x,nearbyItem.y-300);
+		}
+	}
+if (!nearbyItem) { 
+	// Get rid of prompt
+	scr_dismissPrompt(itemPrompt,1);
+	}
+	
 // depth sorting
 depth =- y;
