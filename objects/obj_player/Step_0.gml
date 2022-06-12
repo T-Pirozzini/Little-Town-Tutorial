@@ -21,13 +21,7 @@ vy = ((moveDown - moveUp) * walkSpeed);
 
 // if idle
 if (vx == 0 && vy == 0) {
-	// change idle sprite based on last direction
-	switch dir {
-		case 0: sprite_index = spr_player_idle_right; break;
-		case 1: sprite_index = spr_player_idle_up; break;
-		case 2: sprite_index = spr_player_idle_left; break;
-		case 3: sprite_index = spr_player_idle_down; break;
-	};
+	myState = playerState.idle;
 };
 
 // if moving
@@ -39,23 +33,25 @@ if (vx != 0 || vy != 0) {
 	y += vy;
 	}
 	
-	// change walking sprite based on direction
-	if (vx > 0) {
-		sprite_index = spr_player_walk_right;
+	// change direction based on movement
+	// right
+	if (vx > 0) {		
 		dir = 0;
 	}
-	if (vx < 0) {
-		sprite_index = spr_player_walk_left;
+	// left
+	if (vx < 0) {		
 		dir = 2;
 	}
-	if (vy > 0) {
-		sprite_index = spr_player_walk_down;
+	// down
+	if (vy > 0) {		
 		dir = 3;
 	}
-	if (vy < 0) {
-		sprite_index = spr_player_walk_up;
+	// up
+	if (vy < 0) {		
 		dir = 1;
 	}
+	// set state
+	myState = playerState.walking;
 	
 	// move audio listener with me
 	audio_listener_set_position(0,x,y,0);
